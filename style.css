@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shapeChange{
+    background-color: rgb(215, 233, 122);
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(152, 26, 34, 0.461);
+}
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(220, 249, 74);
+}
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom:  125px solid rgb(0, 73, 128);
+}
+.btn{
+    margin: 10px;
+padding: 10px;
+font-size: 15px;
+color: rgb(4, 105, 105);
+background-color: lightcyan ;
+border: none;
+border-radius: 5px;
+width: 150px;
+height: 80px;
+}
